@@ -1,0 +1,52 @@
+	#container{
+		width: 900px;
+		background-color: #101010;
+		margin-left: auto;
+		margin-right: auto;
+		text_color: #006400;
+	}
+	#logo{
+		background-color: #101010;
+		color: #006400;
+		text-align: center;
+	}
+	#nav{
+		width: 150px;
+		min-height: 610px;
+		background-color: #006400;
+		text_color: #101010;
+		float: left;
+		}
+	#add{
+			width: 150px;
+			min-height: 620px;
+			background-color: #006400;
+			text_color: #101010;
+			float: left;
+	}
+	#content{
+			width: 600px;
+			background-color: #101010;
+			text_color: #006400;
+			float: left;
+	}
+	#footer{
+				background-color: #101010;
+				text_color: #006400;
+				text-align: center;
+				float: clear: both;
+	}
+	a{
+		text-decoration: underline;
+		color: #101010;
+	}
+	@media screen and (max-width:959px){ /*WIDTH important*/
+			#container{
+				width:100%;
+	}
+	}
+	@media screen and (max-width:320px){ /*WIDTH important*/
+			#container{
+			 	width:320px;
+	}
+	}
